@@ -21,7 +21,7 @@ import numpy as np
 
 
 
-os.environ['HF_TOKEN']='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'
+os.environ['HF_TOKEN']='PLACE YOUR HF TOKEN HERE'
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,  # Enables 4-bit quantization
     bnb_4bit_use_double_quant=True,  # Use double quantization for potentially higher accuracy (optional)
