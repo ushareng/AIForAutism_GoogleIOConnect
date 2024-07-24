@@ -28,7 +28,7 @@ class State:
 
 load_dotenv()
 os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key="AIzaSyBVSC53ftkkBd9KLPr4upGKfD8yRmBuOMs")
+genai.configure(api_key="PLACE YOUR GEMINI API KEY HERE")
 
 # Reading the text from pdf page by page and storing it into various
 def get_pdf_text(pdf):
