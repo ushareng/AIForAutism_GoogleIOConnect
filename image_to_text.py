@@ -3,7 +3,7 @@ import mesop as mp
 import base64
 
 import google.generativeai as genai
-genai.configure(api_key='AIzaSyAGB9ZOLj-mnf0RVSboFHEa4FhbkImOOho')
+genai.configure(api_key='PLACE YOUR GEMINI API KEY HERE')
 generation_config = {
   "temperature": 0.9,
   "top_p": 1,
