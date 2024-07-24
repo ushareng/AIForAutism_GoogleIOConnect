@@ -19,7 +19,7 @@ from load_creds import load_creds
 
 
 creds = load_creds()
-genai.configure(api_key='AIzaSyAGB9ZOLj-mnf0RVSboFHEa4FhbkImOOho')
+genai.configure(api_key='PLACE YOUR GEMINI API KEY HERE')
 #genai.configure(credentials=creds)
 # Create the model
 # See https://ai.google.dev/api/python/google/generativeai/GenerativeModel
